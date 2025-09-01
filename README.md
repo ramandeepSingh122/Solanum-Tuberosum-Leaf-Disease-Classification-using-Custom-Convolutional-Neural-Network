@@ -49,7 +49,7 @@ Demonstrates deployment of the trained CNN model using FastAPI.
 Input: Potato leaf image
 Output: Predicted class (Healthy / Early Blight / Late Blight) with probability score
 Shows how this model can be served as a REST API for real-world use
-**Frontend**
+**Frontend:**
 A simple web-based interface was developed to interact with the FastAPI backend.
 Users can upload leaf images.
 The model predicts whether the leaf is Healthy, Early Blight, or Late Blight.
