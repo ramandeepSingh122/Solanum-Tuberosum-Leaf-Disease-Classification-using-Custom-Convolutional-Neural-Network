@@ -27,11 +27,11 @@ Accuracy: 97.01%
 Precision: 96.8%
 Recall: 96.9%
 F1-Score: 96.85%
-Below are some results:
-[Confusion Matrix](Confusion%20matrix.png)
-[Early Blight](Early%20blight.png)
-[Late Blight](Late%20blight.png)
-[Healthy](healthy.png)
+Below are some results 
+[Confusion Matrix](Result_images/Confusion%20matrix.png)  
+[Early Blight](Result_images/Early%20blight.png)  
+[Late Blight](Result_images/Late%20blight.png)
+[Healthy](Result_images/healthy.png)
 
 **Project Workflow:**
 **Training & Evaluation:**
