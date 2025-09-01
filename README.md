@@ -36,6 +36,7 @@ Here are some results/Sample outputs:
 
 
 **Project Workflow:**
+
 **Training & Evaluation:**
 The complete training and evaluation workflow is available in the notebook:  
 [finalmodel.ipynb](finalmodel.ipynb)
@@ -43,7 +44,8 @@ it contains:
 Dataset preprocessing
 CNN model construction
 Training and validation
-Performance evaluation (accuracy, precision, recall, F1-score)
+Performance evaluation (accuracy, precision, recall, F1-score
+
 **Backend / API:**
 The complete training and evaluation workflow is available in the notebook:  
 [test.api.ipynb](test.api.ipynb)
@@ -51,6 +53,7 @@ Demonstrates deployment of the trained CNN model using FastAPI.
 Input: Potato leaf image
 Output: Predicted class (Healthy / Early Blight / Late Blight) with probability score
 Shows how this model can be served as a REST API for real-world use
+
 **Frontend:**
 A simple web-based interface was developed to interact with the FastAPI backend.
 Users can upload leaf images.
