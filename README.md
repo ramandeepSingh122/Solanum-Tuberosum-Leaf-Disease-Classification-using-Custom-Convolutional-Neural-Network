@@ -26,9 +26,22 @@ Precision: 96.8%
 Recall: 96.9%
 F1-Score: 96.85%
 
-**jupyter notebook**
+**Project Workflow**
+**Training & Evaluation**
 The complete training and evaluation workflow is available in the notebook:  
 [finalmodel.ipynb](finalmodel.ipynb)
+it contains:
+Dataset preprocessing
+CNN model construction
+Training and validation
+Performance evaluation (accuracy, precision, recall, F1-score)
+**Backend / API**
+[The complete training and evaluation workflow is available in the notebook:  
+[finalmodel.ipynb](finalmodel.ipynb)
+Demonstrates deployment of the trained CNN model using FastAPI.
+Input: Potato leaf image
+Output: Predicted class (Healthy / Early Blight / Late Blight) with probability score
+Shows how this model can be served as a REST API for real-world use
 
 **Skills Demonstrated**
 Deep Learning (CNNs, TensorFlow/Keras)
