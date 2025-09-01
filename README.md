@@ -37,7 +37,7 @@ Training and validation
 Performance evaluation (accuracy, precision, recall, F1-score)
 **Backend / API**
 [The complete training and evaluation workflow is available in the notebook:  
-[finalmodel.ipynb](finalmodel.ipynb)
+[test.api.ipynb](test.api.ipynb)
 Demonstrates deployment of the trained CNN model using FastAPI.
 Input: Potato leaf image
 Output: Predicted class (Healthy / Early Blight / Late Blight) with probability score
