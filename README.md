@@ -21,10 +21,16 @@ Layers: 6 × Conv2D + MaxPooling → Flatten → Dense (64) → Output (3 neuron
 Activations: ReLU (hidden layers), Softmax (output)
 
 **Results**
+The model achieved following results on basis of four performance metrices
 Accuracy: 97.01%
 Precision: 96.8%
 Recall: 96.9%
 F1-Score: 96.85%
+Below are some results:
+[Confusion Matrix](Confusion%20matrix.png)
+[Early Blight](Early%20blight.png)
+[Late Blight](Late%20blight.png)
+[Healthy](healthy.png)
 
 **Project Workflow**
 **Training & Evaluation**
