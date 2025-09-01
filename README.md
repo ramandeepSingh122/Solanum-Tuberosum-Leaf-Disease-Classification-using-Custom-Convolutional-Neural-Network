@@ -11,17 +11,17 @@ Designed for precision agriculture and crop monitoring, the model enables early 
 Source: M. A. Putra, Potato Leaf Disease Dataset, Kaggle, 2024, Available:https://www.kaggle.com/datasets/muhammadardiputra/potato-leaf-disease-dataset
 Classes: Healthy, Early Blight, Late Blight
 
-**Preprocessing**
+**Preprocessing:**
 Resize: 256×256 px
 Normalization: pixel values scaled [0,1]
 Augmentation: rotation + flipping (training only)
 
-**Model Architecture**
+**Model Architecture:**
 Frameworks: TensorFlow & Keras
 Layers: 6 × Conv2D + MaxPooling → Flatten → Dense (64) → Output (3 neurons, Softmax)
 Activations: ReLU (hidden layers), Softmax (output)
 
-**Results**
+**Results:**
 The model achieved following results on basis of four performance metrices
 Accuracy: 97.01%
 Precision: 96.8%
@@ -33,8 +33,8 @@ Below are some results:
 [Late Blight](Late%20blight.png)
 [Healthy](healthy.png)
 
-**Project Workflow**
-**Training & Evaluation**
+**Project Workflow:**
+**Training & Evaluation:**
 The complete training and evaluation workflow is available in the notebook:  
 [finalmodel.ipynb](finalmodel.ipynb)
 it contains:
@@ -42,7 +42,7 @@ Dataset preprocessing
 CNN model construction
 Training and validation
 Performance evaluation (accuracy, precision, recall, F1-score)
-**Backend / API**
+**Backend / API:**
 [The complete training and evaluation workflow is available in the notebook:  
 [test.api.ipynb](test.api.ipynb)
 Demonstrates deployment of the trained CNN model using FastAPI.
@@ -50,7 +50,7 @@ Input: Potato leaf image
 Output: Predicted class (Healthy / Early Blight / Late Blight) with probability score
 Shows how this model can be served as a REST API for real-world use
 
-**Skills Demonstrated**
+**Skills Demonstrated:**
 Deep Learning (CNNs, TensorFlow/Keras)
 Image Preprocessing & Augmentation
 Model Evaluation (Accuracy, Precision, Recall, F1)
