@@ -26,6 +26,9 @@ Precision: 96.8%
 Recall: 96.9%
 F1-Score: 96.85%
 
+**jupyter notebook**
+The complete training and evaluation workflow is available in the notebook:  
+[finalmodel.ipynb](finalmodel.ipynb)
 
 **Skills Demonstrated**
 Deep Learning (CNNs, TensorFlow/Keras)
