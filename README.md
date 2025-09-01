@@ -13,11 +13,8 @@ Source: M. A. Putra, Potato Leaf Disease Dataset, Kaggle, 2024, Available:https:
 Classes: Healthy, Early Blight, Late Blight
 
 **Preprocessing:**
-
-Resize: 256×256 px
-
-Normalization: pixel values scaled [0,1]
-
+Resize: 256×256 px,
+Normalization: pixel values scaled [0,1,
 Augmentation: rotation + flipping (training only)
 
 **Model Architecture:**
