@@ -14,12 +14,12 @@ Classes: Healthy, Early Blight, Late Blight
 
 **Preprocessing:**
 Resize: 256×256 px,
-Normalization: pixel values scaled [0,1,
+Normalization: pixel values scaled [0,1],
 Augmentation: rotation + flipping (training only)
 
 **Model Architecture:**
-Frameworks: TensorFlow & Keras
-Layers: 6 × Conv2D + MaxPooling → Flatten → Dense (64) → Output (3 neurons, Softmax)
+Frameworks: TensorFlow & Keras,
+Layers: 6 × Conv2D + MaxPooling → Flatten → Dense (64) → Output (3 neurons, Softmax),
 Activations: ReLU (hidden layers), Softmax (output layers)
 
 **Results:**
