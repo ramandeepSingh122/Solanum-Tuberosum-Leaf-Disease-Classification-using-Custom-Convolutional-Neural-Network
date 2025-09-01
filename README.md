@@ -1,4 +1,5 @@
 Solanum Tuberosum Leaf Disease Classification using Custom convolutional neural network
+
 **Overview:**
 This project uses a Custom Convolutional Neural Network (CNN) to classify potato (Solanum tuberosum) leaf conditions into three categories:
 Healthy
