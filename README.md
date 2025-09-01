@@ -4,6 +4,7 @@ This project uses a Custom Convolutional Neural Network (CNN) to classify potato
 Healthy
 Early Blight
 Late Blight
+out of these categories late and early blight are the diseases that can result into complete destruction of potato crops, the main motivation behind the project is to assist farmers financially. in order to make them predict diseases in potato leaves using this module instead of relying on botanist who charges a heavy amount for a single inspection.
 Designed for precision agriculture and crop monitoring, the model enables early disease detection and helps prevent yield losses.
 
 **Dataset**
