@@ -2,9 +2,9 @@ Solanum Tuberosum Leaf Disease Classification using Custom convolutional neural 
 
 **Overview:**
 This project uses a Custom Convolutional Neural Network (CNN) to classify potato (Solanum tuberosum) leaf conditions into three categories:
-Healthy
-Early Blight
-Late Blight
+Healthy,
+Early Blight,
+Late Blight,
 Late and early blight are destructive diseases that can cause complete crop loss. The motivation behind this project is to assist farmers by enabling disease prediction through AI rather than relying on costly botanist inspections.
 Designed for precision agriculture and crop monitoring, this model enables early disease detection and helps prevent yield losses.
 
